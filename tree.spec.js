@@ -54,7 +54,7 @@ function createWideTree() {
     return root;
 }
 
-xtest('depthTraversalTree should process a deep tree', () => {
+test('depthTraversalTree should process a deep tree', () => {
     var root = createDeepTree();
     var index = 1;
     for (let node of depthTraversalTree(root)) {
