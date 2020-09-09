@@ -1,4 +1,4 @@
-function* depthTraversalTree(root, expected) {
+function* depthTraversalTree(root) {
     const stack = [{ node: root, index: 0 }];
     yield root;
     while (stack.length > 0) {
